@@ -3,6 +3,9 @@
 
 int valid(char input[]){
     int i = 0;
+     if (input[0] == '\0') {
+        return 0;
+    }
     while(input[i] == 'a'){
         i++;
     }
